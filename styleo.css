@@ -1,0 +1,152 @@
+/* Colourful mind background */
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: rgb(230, 255, 1);
+    
+
+} 
+
+#logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+
+}
+#logo img{
+    width: 100%;
+
+}
+
+#name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+    color:red;
+    
+}
+
+
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 450px;
+    flex-wrap: wrap;
+    margin: 15px auto ;
+    
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+    
+}
+
+
+/* button properties */
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 20px;
+
+}
+
+#GetPuzzle:hover,#SolvePuzzle:hover{
+    background-color: #48aaaD;
+
+}
+
+#GetPuzzle:active,#SolvePuzzle:active{
+    background-color:#48aaaD;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    box-shadow: 1px 1px 7px rgb(69, 70, 146);
+
+}
+
+
+/* sudoku box up color */
+.box1{
+    background-color: #028a0f;
+    border: 2px solid  white;
+}
+
+.box1:hover{
+    background-color: #3Ded97;
+    color: black;
+}
+
+.box2{
+    background-color: #BC5448;
+    border: 2px solid  white;
+}
+.box2:hover{
+    background-color: red;
+    color: black;
+}
+
+.box3{
+    background-color: #195b87;
+    border: 2px solid  white;
+}
+.box3:hover{
+    background-color: #48aaaD;
+    color: black;
+}
+
+
+
+
+
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
