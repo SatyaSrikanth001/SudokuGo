@@ -31,7 +31,7 @@
     
 }
 
-
+/* sudoku solver text */
 
 .Heading{
     width: 100%;
@@ -40,14 +40,18 @@
     align-items: center;
     font-size: 35px;
     font-weight: bolder;
+    font-family: cursive;
+
 }
 
+/* sudoku board */
 .sudoku_grid{
     display: flex;
     flex-direction: row;
     max-width: 450px;
     flex-wrap: wrap;
     margin: 15px auto ;
+
     
 }
 
@@ -60,8 +64,12 @@
     color: white;
     font-size: 40px;
     box-sizing: border-box;
+    border-radius: 3px;
+
 }
 
+
+/* Button properties */
 .Buttons{   
     display: flex;
     justify-content: center;
@@ -70,8 +78,6 @@
     
 }
 
-
-/* button properties */
 #GetPuzzle,#SolvePuzzle{
     display: inline-block;
     text-decoration: none;
@@ -84,12 +90,10 @@
     border-radius: 10px;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
     margin-right: 20px;
-
 }
 
 #GetPuzzle:hover,#SolvePuzzle:hover{
     background-color: #48aaaD;
-
 }
 
 #GetPuzzle:active,#SolvePuzzle:active{
@@ -97,14 +101,13 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
     box-shadow: 1px 1px 7px rgb(69, 70, 146);
-
 }
 
 
 /* sudoku box up color */
 .box1{
     background-color: #028a0f;
-    border: 2px solid  white;
+    border: 1px solid  white;
 }
 
 .box1:hover{
@@ -114,16 +117,16 @@
 
 .box2{
     background-color: #BC5448;
-    border: 2px solid  white;
+    border: 1px solid  white;
 }
 .box2:hover{
-    background-color: red;
+    background-color: rgb(255, 72, 0);
     color: black;
 }
 
 .box3{
     background-color: #195b87;
-    border: 2px solid  white;
+    border: 1px solid  white;
 }
 .box3:hover{
     background-color: #48aaaD;
@@ -133,7 +136,7 @@
 
 
 
-
+/* full sudoku grid border */
 
 .bl{
     border-left: 4px solid black;
